@@ -14,12 +14,12 @@ export default {
   },
   data () {
     return {
-      count: 1
+      count: 2
     }
   },
   methods: {
     handleChangeCount () {
-      this.count++
+      this.count += 2
     }
   }
 }
